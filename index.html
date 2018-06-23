@@ -5,47 +5,160 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Lucio Rodriguez</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp"
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+	crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp"
- crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
- crossorigin="anonymous">
-	<script src="main.js"></script>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="nav">
-				<a class="nav-button" href="#welcome">
-					<span class="nav-icon">
-						<i class="fas fa-home"></i>
-					</span>
-				</a>
-				<a class="nav-button" href="#intro">
-					<span class="nav-icon">
-						<i class="fas fa-user-circle"></i>
-					</span>
-				</a>
-				<a class="nav-button" href="#stack">
-					<span class="nav-icon">
-						<i class="fas fa-pencil-ruler"></i>
-					</span>
-				</a>
-				<a class="nav-button" href="#portfolio">
-					<span class="nav-icon">
-						<i class="fas fa-images"></i>
-					</span>
-				</a>
-				<a class="nav-button" href="#contact">
-					<span class="nav-icon">
-						<i class="fas fa-address-card"></i>
-					</span>
-				</a>
+		<div class="wrapper">
+			<div class="nav">
+					<button class="nav-button" to="intro">
+						<span class="nav-icon">
+							<i class="fas fa-user-circle"></i>
+						</span>
+					</button>
+					<button class="nav-button" to="stack">
+						<span class="nav-icon">
+							<i class="fas fa-pencil-ruler"></i>
+						</span>
+					</button>
+					<button class="nav-button" to="projects">
+						<span class="nav-icon">
+							<i class="fas fa-images"></i>
+						</span>
+					</button>
+					<button class="nav-button" to="contact">
+						<span class="nav-icon">
+							<i class="fas fa-address-card"></i>
+						</span>
+					</button>
+			</div>
+			<div class="main">
+				<div class="section" id="intro">
+					<div class="intro-title">
+						<h1>lucio RODRIGUEZ</h1>
+						<h2>Frontend web developer</h2>
+					</div>
+					<div class="intro-body">
+						<i><h3>" I'm a young developer with a great passion for creativity in all its forms.</br>
+						I was raised in Spain and moved back to US in 2016, since then I've been working really hard, learning and building the core
+						values that got me where I am today, the t	ech industry.</br>
+						</br>
+						With every line of code I write I grow my mind, exercise my creativity, and help to solve problems, that's why I chose tech,
+						because of it's symbiotic and progressive nature. "</h3></i>
+					</div>
+					<div class="intro-cv-section">
+						<a class="cv-button" href="https://tinyurl.com/ydgt8ef4" target="_blank">Resume</a>
+					</div>
+				</div>
+				<!-- MY STACK -->
+				<div class="section" id="stack">
+					<h2>my STACK</h2>
+					<div class="stk-header">
+						<h3>My favorite technologies</h3>
+					</div>
+					<div class="stk-box">
+						<div class="stk-square" color="darkslategrey">Express</div>
+						<div class="stk-square" color="forestgreen">Mongo</div>
+						<div class="stk-square" color="yellowgreen">Node</div>
+						<div class="stk-square" color="deepskyblue">React &amp; Native</div>
+					</div>
+					<h3>Also worked with</h3>
+					<div class="stk-box">
+						<div class="stk-square" color="deeppink">Adobe XD</div>
+						<div class="stk-square" color="dodgerblue">CSS</div>
+						<div class="stk-square" color="turquoise">Django</div>
+						<div class="stk-square" color="gold">Firebase</div>
+						<div class="stk-square" color="white">Flask</div>
+						<div class="stk-square" color="tomato">Git</div>
+						<div class="stk-square" color="orangered">HTML</div>
+						<div class="stk-square" color="orange">Illustrator</div>
+						<div class="stk-square" color="yellow">Javascript</div>
+						<div class="stk-square" color="firebrick">Jest &amp; Enzyme</div>
+						<div class="stk-square" color="steelblue">JQuery</div>
+						<div class="stk-square" color="white">Mongo Atlas</div>
+						<div class="stk-square" color="darkslategrey">mLab</div>
+						<div class="stk-square" color="darkturquoise">Photoshop</div>
+						<div class="stk-square" color="dodgerblue">Python</div>
+						<div class="stk-square" color="red">Rails</div>
+						<div class="stk-square" color="darkred">Ruby</div>
+					</div>
+				</div>
+				<div class="section" id="projects">
+					<h2>previous WORK</h2>
+					<div class="pro-cards">
+						<div class="pro-item">
+							<a href="https://cryptic-lowlands-92238.herokuapp.com/" target="_blank">
+								<img class="pro-img" src="https://i.imgur.com/6cDtPCK.png"/>
+							</a>
+							<div class="pro-content">
+								<h2>POOLI.IO</h2>
+								<h3>Fintech web application</h3>
+								<h4>Group based lending-investing platform. Each member will pay a monthly quote, every month one of the members will be awarded
+								the total sum. Oauth with Google API, Credit &amp; background check, Transaction system for money collection and disbursement	.</h4>
+								<div class="pro-tech">
+										<img src="https://i.imgur.com/YNfftXH.png" title="React" class="pro-tech-icon" alt="">
+										<img src="https://i.imgur.com/udslm0r.png" title="Express" class="pro-tech-icon" alt="">
+										<img src="https://i.imgur.com/hMwE7sJ.png" title="Node" class="pro-tech-icon" alt="">
+										<img src="https://i.imgur.com/xv4iMU3.png" title="Passport" class="pro-tech-icon" alt="">
+										<img src="https://i.imgur.com/kHUHqWj.png" title="mlab" class="pro-tech-icon" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="pro-item">
+							<a href="https://expo.io/@topmillerm2/amigo" target="_blank">
+								<img class="pro-img" src="https://i.imgur.com/NTSwW7E.png"/>
+							</a>
+							<div class="pro-content">
+								<h2>AMIGO</h2>
+								<h3>Phone game</h3>
+								<h4>One to one game between friends, question are asked in turns, answers are reviewed by players and new questions sent. Private chat
+								system implementation, NoSQL database, Friendship system, Oauth with Facebook API</h4>
+								<div class="pro-tech">
+										<img src="https://i.imgur.com/YNfftXH.png" title="React" class="pro-tech-icon" alt="">
+										<img src="https://i.imgur.com/bNOY2Vd.png" title="Firebase" class="pro-tech-icon" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section" id="contact">
+					<h2>FIND me</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1650.3060812787392!2d-118.3098928!3d34.1818323!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29550c270a0e1%3A0xd8a92fef07599334!2s175+E+Olive+Ave%2C+Burbank%2C+CA+91502!5e0!3m2!1sen!2sus!4v1529733092216"
+					 width="1200" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<h3>or just send a message</h3>
+					<div style="margin: 2em 0 3em 0;">
+						<a class="contact-button" href="https://www.facebook.com/lucio.rodriguez.39142" target="_blank">
+							<span class="contact-icon" color="#3b5998">
+								<i class="fab fa-facebook"></i>
+							</span>
+						</a>
+						<a class="contact-button" href="https://www.linkedin.com/in/lucio-rodriguez/" target="_blank">
+							<span class="contact-icon" color="#0077B5">
+								<i class="fab fa-linkedin"></i>
+							</span>
+						</a>
+						<a class="contact-button" href="https://github.com/Luonstreak" target="_blank">
+							<span class="contact-icon" color="#150D3F">
+								<i class="fab fa-github"></i>
+							</span>
+						</a>
+						<a class="contact-button" href="https://gitlab.com/luonstreak" target="_blank">
+							<span class="contact-icon" color=#FFA500>
+								<i class="fab fa-gitlab"></i>
+							</span>
+						</a>
+					</div>
+					<a class="cv-button" href="https://tinyurl.com/y6v9pb4t" >Download Resume</a>
+					<h4 style="margin-top: 4em; color: var(--text-light)"><i>Thanks for visiting my site, hope to hear from you soon :)</i></h4>
+					<h4 style="margin-top: 1em; color: var(--bg-light)"><i>This page was built with pure HMTL, CSS, and a dash of JS</i></h4>
+				</div>
+			</div>
 		</div>
-		<div class="section" id="welcome"></div>
-		<div class="section" id="intro"></div>
-		<div class="section" id="stack"></div>
-		<div class="section" id="portfolio"></div>
-		<div class="section" id="contact"></div>
-	</div>
+	<!-- JQUERY -->
+	<script src="scripts.js"></script>
 </body>
 </html>

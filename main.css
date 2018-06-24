@@ -22,8 +22,12 @@
 }
 
 body {
-	background: linear-gradient(to top left, var(--detail), var(--bg-dark), var(--bg-light));
-	/* background: linear-gradient(to bottom right,var(--bg-light), var(--bg-dark)); */
+	background: url('https://wallpaperbrowse.com/media/images/background-7.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: var(--bg-dark);
 }
 
 .wrapper {
